@@ -1,0 +1,112 @@
+/* html {
+    overflow-x: hidden;
+} */
+
+body {
+    background-color: #eaeaea;
+    font-family: 'Space Grotesk', sans-serif;
+    /* font-family: 'Space Mono', monospace; */
+}
+
+#mainNavbar {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#mainNavbar .navbar-brand {
+    color: black;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#mainNavbar .nav-link {
+    color: lightgray;
+}
+
+#mainNavbar .nav-link.active {
+    font-weight: 500;
+}
+
+#mainNavbar .nav-link:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.navbar-toggler-icon {
+    width: 1em !important;
+    height: 1em !important;
+}
+
+.navbar {
+    transition: background-color 200ms ease-out;
+}
+
+.scrolled {
+    background-color: hsla(16, 100%, 50%, 0.1);
+    transition: background-color 500ms ease-in;
+}
+
+#headingGroup span {
+    color: orangered;
+}
+
+#headingGroup h1 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 2.6rem;
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 2rem;
+    }
+}
+
+.limit {
+    width: 100%;
+    max-width: 50vw;
+    height: auto;
+    max-height: calc(100vh - 64px);
+}
+
+#headingImage {
+    width: 100%;
+    height: auto;
+}
+
+.blurb {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.blurb h2 {
+    display: inline-block;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid orangered;
+    margin-bottom: 1rem;
+}
+
+.blurb p {
+    line-height: 2;
+}
+
+footer {
+    font-weight: 300;
+    font-size: 0.8rem;
+    background-color: black;
+    color: lightgrey;
+}
+
+footer a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+footer a:hover {
+    text-decoration: dotted underline orangered 1px;
+}
